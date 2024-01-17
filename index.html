@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Focus Up</title>
+        <link href="style.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com" rel="preconnect"  />
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=EG+Garamond:wght@400;500;600;700&family=Fira+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="app-container">
+            <h1>POMODORO</h1>
+            <div class="app-message">Press Start to Begin</div>
+            <div class="type">
+                <p>
+                    <span class="work active">Work</span>
+                    <span class="break active">Break</span>
+                </p>
+            </div>
+            <br>
+            <div class="app-circle">
+                <div class="circle-shape">
+                    <div class="ring"></div>              
+                </div>
+                <div class="app-counter-box">
+                    <p><span class="minutes">25</span>:<span class="seconds">00</span></p>
+                </div>
+                <button class="button" onclick="count()">start</button><br>
+                <button class="resetButton" onclick="reset()">reset</button>
+            </div>
+            <div class="period">
+                <p><span class="periodDisplay">Pomodoro #</span><span class="periodNum">1</span></p>
+            </div>
+            <div class="tasks">
+                <h2 class="taskDisplay">Tasks</h2><hr width="100%">
+                <div class="row">
+                    <input class="inputBox" type="text" placeholder="Add Task">
+                    <button class="saveBtn" onclick="save()">Save</button>
+                </div>
+                <ul id="listContainer">
+                    <!-- <li class="checked">Task 1</li>
+                    <li>Task 1</li>
+                    <li>Task 1</li> -->
+                </ul>
+            </div>
+        </div>
+    </body>
+    <script src="app.js"></script>
+</html>
