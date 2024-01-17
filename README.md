@@ -3,6 +3,9 @@ When it comes down to studying, students have a hard time focusing their attenti
 
 <img width="300" src="https://cdn.pixabay.com/animation/2023/10/10/13/27/13-27-05-899_512.gif">
 
+Please feel free to check out my live pomodoro app!
+[https://tech-portfolio-nine.vercel.app/](https://focus-up-vert.vercel.app/)
+
 ## Tools Used 🔧
 1. Javascript
 2. HTML
